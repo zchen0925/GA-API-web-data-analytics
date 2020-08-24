@@ -10,9 +10,7 @@ tagsIndex = pd.read_excel('D:\\CICW\\dotCMS GA\\Tags Density Map.xlsx', sheet_na
 tagsList = tagsIndex['Tags']
 
 SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
-#JSON key pair generated for cicw-seo@dotcms-seo-graphs-sandbox.iam.gserviceaccount.com
 KEY_FILE_LOCATION = 'reporting API JSON key.json'
-#the "Main" view under "www.calvin.edu/worship" property
 VIEW_ID = '6992300'
 
 def get_yrURLS_with_tag(year, tag):
